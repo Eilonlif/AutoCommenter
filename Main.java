@@ -37,7 +37,6 @@ public class functioncommets {
     }
 }
 
-// its returning a variable of the type: void
 // Code for the variables that each function is getting:
 //      for (String var : splitedLine) {
 //            System.out.println("var: "  + var.trim());
