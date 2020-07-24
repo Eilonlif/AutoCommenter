@@ -5,7 +5,7 @@ import java.util.*;
 
 public class functioncommets {
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("src/guessing_game.java");    // The path to the file
+        Path path = Paths.get("PathToFile.java");    // The path to the file
         List<String> lines = Files.readAllLines(path, StandardCharsets.UTF_8);
         List<String> tmpLines = new ArrayList<>();
         for (String l : lines) {
